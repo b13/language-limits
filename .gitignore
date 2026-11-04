@@ -1,0 +1,8 @@
+.Build/
+.cache/
+var/
+composer.lock
+composer.json.orig
+composer.json.testing
+.php-cs-fixer.cache
+.idea

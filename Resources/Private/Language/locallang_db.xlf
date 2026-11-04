@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+	<file source-language="en" datatype="plaintext" original="EXT:language_limits/Resources/Private/Language/locallang_db.xlf" date="2026-11-04T10:00:00Z" product-name="language_limits">
+		<header/>
+		<body>
+			<trans-unit id="field.label" resname="field.label">
+				<source>Language limits</source>
+			</trans-unit>
+			<trans-unit id="field.description.pages" resname="field.description.pages">
+				<source>Limit in which languages this page is shown. Without a limit, the site configuration decides.</source>
+			</trans-unit>
+			<trans-unit id="field.description.records" resname="field.description.records">
+				<source>Limit in which languages this record is shown. Without a limit, the site configuration decides.</source>
+			</trans-unit>
+			<trans-unit id="element.language" resname="element.language">
+				<source>Language</source>
+			</trans-unit>
+			<trans-unit id="element.limit" resname="element.limit">
+				<source>Limit</source>
+			</trans-unit>
+			<trans-unit id="element.subpages" resname="element.subpages">
+				<source>Also for subpages</source>
+			</trans-unit>
+			<trans-unit id="element.noLanguages" resname="element.noLanguages">
+				<source>The site of this record has no languages besides the default language.</source>
+			</trans-unit>
+			<trans-unit id="mode.none" resname="mode.none">
+				<source>No limit (site configuration)</source>
+			</trans-unit>
+			<trans-unit id="mode.translated" resname="mode.translated">
+				<source>Only if translated</source>
+			</trans-unit>
+			<trans-unit id="mode.fallback" resname="mode.fallback">
+				<source>If translated, or available in a fallback language</source>
+			</trans-unit>
+			<trans-unit id="mode.never" resname="mode.never">
+				<source>Never</source>
+			</trans-unit>
+			<trans-unit id="mode.always" resname="mode.always">
+				<source>Always, in the default language if not translated</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

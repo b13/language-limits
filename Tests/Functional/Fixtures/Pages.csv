@@ -1,0 +1,20 @@
+"pages",,,,,,,,,
+,"uid","pid","sorting","deleted","hidden","sys_language_uid","l10n_parent","title","slug","tx_languagelimits"
+,1,0,256,0,0,0,0,"Root","/",
+,2,1,256,0,0,0,0,"Products","/products",
+,3,1,256,0,0,1,2,"[DA] Products","/products",
+,4,1,512,0,0,0,0,"Untranslated page","/untranslated","{""1"":{""mode"":""translated""}}"
+,5,1,768,0,0,0,0,"Hidden in DA","/hidden-in-da","{""1"":{""mode"":""never"",""subpages"":true}}"
+,6,1,768,0,0,1,5,"[DA] Hidden in DA","/hidden-in-da","{""1"":{""mode"":""never"",""subpages"":true}}"
+,7,5,256,0,0,0,0,"Child of hidden","/hidden-in-da/child",
+,8,5,256,0,0,1,7,"[DA] Child of hidden","/hidden-in-da/child",
+"tt_content",,,,,,,,,
+,"uid","pid","sorting","deleted","hidden","sys_language_uid","l18n_parent","colPos","header","tx_languagelimits"
+,10,2,256,0,0,0,0,0,"Translated element",
+,11,2,256,0,0,1,10,0,"[DA] Translated element",
+,12,2,512,0,0,0,0,0,"Untranslated element",
+,13,2,768,0,0,0,0,0,"Never element","{""1"":{""mode"":""never""}}"
+,14,2,768,0,0,1,13,0,"[DA] Never element","{""1"":{""mode"":""never""}}"
+,15,2,1024,0,0,0,0,0,"Only translated element","{""1"":{""mode"":""translated""}}"
+,16,2,1280,0,0,0,0,0,"Always element","{""1"":{""mode"":""always""}}"
+,17,2,1536,0,0,0,0,0,"Fallback element","{""1"":{""mode"":""fallback""}}"

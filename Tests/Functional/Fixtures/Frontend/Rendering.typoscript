@@ -1,0 +1,38 @@
+page = PAGE
+page.config.disableAllHeaderCode = 1
+page.10 = CONTENT
+page.10 {
+	table = tt_content
+	select {
+		orderBy = sorting
+		where = {#colPos}=0
+	}
+	renderObj = TEXT
+	renderObj.field = header
+	renderObj.wrap = <content>|</content>
+}
+page.20 = HMENU
+page.20 {
+	special = directory
+	special.value = 1
+	1 = TMENU
+	1.NO.doNotLinkIt = 1
+	1.NO.stdWrap.field = title
+	1.NO.wrapItemAndSub = <menu-item>|</menu-item>
+}
+page.30 = COA
+page.30 {
+	10 = TEXT
+	10.value = Products
+	10.typolink.parameter = 2
+	10.wrap = <page-link>|</page-link>
+	20 < .10
+	20.value = Untranslated page
+	20.typolink.parameter = 4
+	30 < .10
+	30.value = Hidden in DA
+	30.typolink.parameter = 5
+	40 < .10
+	40.value = Child of hidden
+	40.typolink.parameter = 7
+}

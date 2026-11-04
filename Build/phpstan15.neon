@@ -1,0 +1,11 @@
+includes:
+  - phpstan-baseline-15.neon
+
+parameters:
+  level: 5
+
+  paths:
+    - %currentWorkingDirectory%/Classes
+    - %currentWorkingDirectory%/Configuration
+    - %currentWorkingDirectory%/Tests
+    - %currentWorkingDirectory%/ext_localconf.php
